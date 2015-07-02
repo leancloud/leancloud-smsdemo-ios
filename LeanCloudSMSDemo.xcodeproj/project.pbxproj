@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4E28A61B43D1DD000E4A47 /* SMSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E28A41B43D1DD000E4A47 /* SMSOperationViewController.m */; };
+		5C4E28A71B43D1DD000E4A47 /* SMSOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E28A51B43D1DD000E4A47 /* SMSOperationViewController.xib */; };
+		5C4E28AB1B43EC44000E4A47 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E28A91B43EC44000E4A47 /* SignupViewController.m */; };
+		5C4E28AC1B43EC44000E4A47 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E28AA1B43EC44000E4A47 /* SignupViewController.xib */; };
+		5C4E28B51B43ED1F000E4A47 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E28B31B43ED1F000E4A47 /* ResetPasswordViewController.m */; };
+		5C4E28B61B43ED1F000E4A47 /* ResetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E28B41B43ED1F000E4A47 /* ResetPasswordViewController.xib */; };
+		5CA233631B44F1E3003AE690 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA233621B44F1E3003AE690 /* CommonUtils.m */; };
+		5CA233671B44F3E6003AE690 /* MobileVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA233651B44F3E6003AE690 /* MobileVerifyViewController.m */; };
+		5CA233681B44F3E6003AE690 /* MobileVerifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA233661B44F3E6003AE690 /* MobileVerifyViewController.xib */; };
+		5CDEA5771B2A8EF1003CD5B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEA5761B2A8EF1003CD5B2 /* main.m */; };
+		5CDEA57A1B2A8EF1003CD5B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEA5791B2A8EF1003CD5B2 /* AppDelegate.m */; };
+		5CDEA57D1B2A8EF1003CD5B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEA57C1B2A8EF1003CD5B2 /* ViewController.m */; };
+		5CDEA5801B2A8EF1003CD5B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDEA57E1B2A8EF1003CD5B2 /* Main.storyboard */; };
+		5CDEA5821B2A8EF1003CD5B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDEA5811B2A8EF1003CD5B2 /* Images.xcassets */; };
+		5CDEA5851B2A8EF1003CD5B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDEA5831B2A8EF1003CD5B2 /* LaunchScreen.xib */; };
+		5CDEA5911B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEA5901B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.m */; };
+		D6F5C894CDD19AA7328A471D /* libPods-LeanCloudSMSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FD888633ABBB1BB6615DAF /* libPods-LeanCloudSMSDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CDEA58B1B2A8EF1003CD5B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDEA5691B2A8EF1003CD5B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDEA5701B2A8EF1003CD5B2;
+			remoteInfo = LeanCloudSMSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32AC22FE88762A388941C130 /* Pods-LeanCloudSMSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudSMSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudSMSDemo/Pods-LeanCloudSMSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5C4E28A31B43D1DD000E4A47 /* SMSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSOperationViewController.h; sourceTree = "<group>"; };
+		5C4E28A41B43D1DD000E4A47 /* SMSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSOperationViewController.m; sourceTree = "<group>"; };
+		5C4E28A51B43D1DD000E4A47 /* SMSOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMSOperationViewController.xib; sourceTree = "<group>"; };
+		5C4E28A81B43EC44000E4A47 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		5C4E28A91B43EC44000E4A47 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		5C4E28AA1B43EC44000E4A47 /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		5C4E28B21B43ED1F000E4A47 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		5C4E28B31B43ED1F000E4A47 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		5C4E28B41B43ED1F000E4A47 /* ResetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordViewController.xib; sourceTree = "<group>"; };
+		5CA233611B44F1E3003AE690 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		5CA233621B44F1E3003AE690 /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
+		5CA233641B44F3E6003AE690 /* MobileVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileVerifyViewController.h; sourceTree = "<group>"; };
+		5CA233651B44F3E6003AE690 /* MobileVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileVerifyViewController.m; sourceTree = "<group>"; };
+		5CA233661B44F3E6003AE690 /* MobileVerifyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobileVerifyViewController.xib; sourceTree = "<group>"; };
+		5CDEA5711B2A8EF1003CD5B2 /* LeanCloudSMSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloudSMSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDEA5751B2A8EF1003CD5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDEA5761B2A8EF1003CD5B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CDEA5781B2A8EF1003CD5B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CDEA5791B2A8EF1003CD5B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CDEA57B1B2A8EF1003CD5B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CDEA57C1B2A8EF1003CD5B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CDEA57F1B2A8EF1003CD5B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CDEA5811B2A8EF1003CD5B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CDEA5841B2A8EF1003CD5B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CDEA58A1B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudSMSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDEA58F1B2A8EF1003CD5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDEA5901B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudSMSDemoTests.m; sourceTree = "<group>"; };
+		64FD888633ABBB1BB6615DAF /* libPods-LeanCloudSMSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanCloudSMSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54B6D76588B29DF64C8DC85 /* Pods-LeanCloudSMSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudSMSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudSMSDemo/Pods-LeanCloudSMSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDEA56E1B2A8EF1003CD5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F5C894CDD19AA7328A471D /* libPods-LeanCloudSMSDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEA5871B2A8EF1003CD5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182949BF07CD13ED8A7AED5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64FD888633ABBB1BB6615DAF /* libPods-LeanCloudSMSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D41E84278208AB8EB185A4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B54B6D76588B29DF64C8DC85 /* Pods-LeanCloudSMSDemo.debug.xcconfig */,
+				32AC22FE88762A388941C130 /* Pods-LeanCloudSMSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CDEA5681B2A8EF1003CD5B2 = {
+			isa = PBXGroup;
+			children = (
+				5CDEA5731B2A8EF1003CD5B2 /* LeanCloudSMSDemo */,
+				5CDEA58D1B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests */,
+				5CDEA5721B2A8EF1003CD5B2 /* Products */,
+				4D41E84278208AB8EB185A4E /* Pods */,
+				182949BF07CD13ED8A7AED5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDEA5721B2A8EF1003CD5B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDEA5711B2A8EF1003CD5B2 /* LeanCloudSMSDemo.app */,
+				5CDEA58A1B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CDEA5731B2A8EF1003CD5B2 /* LeanCloudSMSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5CDEA5781B2A8EF1003CD5B2 /* AppDelegate.h */,
+				5CDEA5791B2A8EF1003CD5B2 /* AppDelegate.m */,
+				5CDEA57B1B2A8EF1003CD5B2 /* ViewController.h */,
+				5CDEA57C1B2A8EF1003CD5B2 /* ViewController.m */,
+				5CDEA57E1B2A8EF1003CD5B2 /* Main.storyboard */,
+				5CDEA5811B2A8EF1003CD5B2 /* Images.xcassets */,
+				5CDEA5831B2A8EF1003CD5B2 /* LaunchScreen.xib */,
+				5CDEA5741B2A8EF1003CD5B2 /* Supporting Files */,
+				5C4E28A31B43D1DD000E4A47 /* SMSOperationViewController.h */,
+				5C4E28A41B43D1DD000E4A47 /* SMSOperationViewController.m */,
+				5C4E28A51B43D1DD000E4A47 /* SMSOperationViewController.xib */,
+				5C4E28A81B43EC44000E4A47 /* SignupViewController.h */,
+				5C4E28A91B43EC44000E4A47 /* SignupViewController.m */,
+				5C4E28AA1B43EC44000E4A47 /* SignupViewController.xib */,
+				5C4E28B21B43ED1F000E4A47 /* ResetPasswordViewController.h */,
+				5C4E28B31B43ED1F000E4A47 /* ResetPasswordViewController.m */,
+				5C4E28B41B43ED1F000E4A47 /* ResetPasswordViewController.xib */,
+				5CA233611B44F1E3003AE690 /* CommonUtils.h */,
+				5CA233621B44F1E3003AE690 /* CommonUtils.m */,
+				5CA233641B44F3E6003AE690 /* MobileVerifyViewController.h */,
+				5CA233651B44F3E6003AE690 /* MobileVerifyViewController.m */,
+				5CA233661B44F3E6003AE690 /* MobileVerifyViewController.xib */,
+			);
+			path = LeanCloudSMSDemo;
+			sourceTree = "<group>";
+		};
+		5CDEA5741B2A8EF1003CD5B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDEA5751B2A8EF1003CD5B2 /* Info.plist */,
+				5CDEA5761B2A8EF1003CD5B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CDEA58D1B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CDEA5901B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.m */,
+				5CDEA58E1B2A8EF1003CD5B2 /* Supporting Files */,
+			);
+			path = LeanCloudSMSDemoTests;
+			sourceTree = "<group>";
+		};
+		5CDEA58E1B2A8EF1003CD5B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDEA58F1B2A8EF1003CD5B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDEA5701B2A8EF1003CD5B2 /* LeanCloudSMSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDEA5941B2A8EF1003CD5B2 /* Build configuration list for PBXNativeTarget "LeanCloudSMSDemo" */;
+			buildPhases = (
+				4F6969081B68A46AD9B86520 /* Check Pods Manifest.lock */,
+				5CDEA56D1B2A8EF1003CD5B2 /* Sources */,
+				5CDEA56E1B2A8EF1003CD5B2 /* Frameworks */,
+				5CDEA56F1B2A8EF1003CD5B2 /* Resources */,
+				EFD971FC37EE7B2138D73AFD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloudSMSDemo;
+			productName = LeanCloudSMSDemo;
+			productReference = 5CDEA5711B2A8EF1003CD5B2 /* LeanCloudSMSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CDEA5891B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDEA5971B2A8EF1003CD5B2 /* Build configuration list for PBXNativeTarget "LeanCloudSMSDemoTests" */;
+			buildPhases = (
+				5CDEA5861B2A8EF1003CD5B2 /* Sources */,
+				5CDEA5871B2A8EF1003CD5B2 /* Frameworks */,
+				5CDEA5881B2A8EF1003CD5B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDEA58C1B2A8EF1003CD5B2 /* PBXTargetDependency */,
+			);
+			name = LeanCloudSMSDemoTests;
+			productName = LeanCloudSMSDemoTests;
+			productReference = 5CDEA58A1B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDEA5691B2A8EF1003CD5B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LeanCloud;
+				TargetAttributes = {
+					5CDEA5701B2A8EF1003CD5B2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					5CDEA5891B2A8EF1003CD5B2 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5CDEA5701B2A8EF1003CD5B2;
+					};
+				};
+			};
+			buildConfigurationList = 5CDEA56C1B2A8EF1003CD5B2 /* Build configuration list for PBXProject "LeanCloudSMSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CDEA5681B2A8EF1003CD5B2;
+			productRefGroup = 5CDEA5721B2A8EF1003CD5B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDEA5701B2A8EF1003CD5B2 /* LeanCloudSMSDemo */,
+				5CDEA5891B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDEA56F1B2A8EF1003CD5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4E28AC1B43EC44000E4A47 /* SignupViewController.xib in Resources */,
+				5C4E28B61B43ED1F000E4A47 /* ResetPasswordViewController.xib in Resources */,
+				5CA233681B44F3E6003AE690 /* MobileVerifyViewController.xib in Resources */,
+				5CDEA5801B2A8EF1003CD5B2 /* Main.storyboard in Resources */,
+				5C4E28A71B43D1DD000E4A47 /* SMSOperationViewController.xib in Resources */,
+				5CDEA5851B2A8EF1003CD5B2 /* LaunchScreen.xib in Resources */,
+				5CDEA5821B2A8EF1003CD5B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEA5881B2A8EF1003CD5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F6969081B68A46AD9B86520 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD971FC37EE7B2138D73AFD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudSMSDemo/Pods-LeanCloudSMSDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDEA56D1B2A8EF1003CD5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4E28B51B43ED1F000E4A47 /* ResetPasswordViewController.m in Sources */,
+				5CDEA57D1B2A8EF1003CD5B2 /* ViewController.m in Sources */,
+				5CA233631B44F1E3003AE690 /* CommonUtils.m in Sources */,
+				5CA233671B44F3E6003AE690 /* MobileVerifyViewController.m in Sources */,
+				5CDEA57A1B2A8EF1003CD5B2 /* AppDelegate.m in Sources */,
+				5CDEA5771B2A8EF1003CD5B2 /* main.m in Sources */,
+				5C4E28A61B43D1DD000E4A47 /* SMSOperationViewController.m in Sources */,
+				5C4E28AB1B43EC44000E4A47 /* SignupViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEA5861B2A8EF1003CD5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDEA5911B2A8EF1003CD5B2 /* LeanCloudSMSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CDEA58C1B2A8EF1003CD5B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDEA5701B2A8EF1003CD5B2 /* LeanCloudSMSDemo */;
+			targetProxy = 5CDEA58B1B2A8EF1003CD5B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CDEA57E1B2A8EF1003CD5B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDEA57F1B2A8EF1003CD5B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CDEA5831B2A8EF1003CD5B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDEA5841B2A8EF1003CD5B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CDEA5921B2A8EF1003CD5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CDEA5931B2A8EF1003CD5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CDEA5951B2A8EF1003CD5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54B6D76588B29DF64C8DC85 /* Pods-LeanCloudSMSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeanCloudSMSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CDEA5961B2A8EF1003CD5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AC22FE88762A388941C130 /* Pods-LeanCloudSMSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeanCloudSMSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CDEA5981B2A8EF1003CD5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeanCloudSMSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloudSMSDemo.app/LeanCloudSMSDemo";
+			};
+			name = Debug;
+		};
+		5CDEA5991B2A8EF1003CD5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeanCloudSMSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloudSMSDemo.app/LeanCloudSMSDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDEA56C1B2A8EF1003CD5B2 /* Build configuration list for PBXProject "LeanCloudSMSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDEA5921B2A8EF1003CD5B2 /* Debug */,
+				5CDEA5931B2A8EF1003CD5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDEA5941B2A8EF1003CD5B2 /* Build configuration list for PBXNativeTarget "LeanCloudSMSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDEA5951B2A8EF1003CD5B2 /* Debug */,
+				5CDEA5961B2A8EF1003CD5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDEA5971B2A8EF1003CD5B2 /* Build configuration list for PBXNativeTarget "LeanCloudSMSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDEA5981B2A8EF1003CD5B2 /* Debug */,
+				5CDEA5991B2A8EF1003CD5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CDEA5691B2A8EF1003CD5B2 /* Project object */;
+}
